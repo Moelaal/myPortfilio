@@ -4,14 +4,14 @@
 body {
   line-height: 1.2;
   font-family: "Roboto", sans-serif;
-  font-size: 15px;
+  font-size: 1rem;
   color: #4c4c4c;
 }
 
 p, .paragraph {
   font-weight: 400;
   color: #4c4c4c;
-  font-size: 15px;
+  font-size: 1rem;
   line-height: 1.8;
   font-family: "Roboto", sans-serif;
 }
@@ -26,7 +26,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1, .h1 {
-  font-size: 80px;
+  font-size: 6rem;
 }
 @media (max-width: 991px) {
   h1, .h1 {
@@ -35,7 +35,7 @@ h1, .h1 {
 }
 
 h2, .h2 {
-  font-size: 60px;
+  font-size: 4rem;
 }
 @media (max-width: 991px) {
   h2, .h2 {
@@ -115,11 +115,11 @@ a:hover {
 }
 
 .section {
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
 }
 .section-title {
-  margin-bottom: 80px;
+  margin-bottom: 6rem;
   font-family: "Playfair Display", serif;
 }
 
@@ -145,33 +145,33 @@ a:hover {
     .skills .widget-content-area h3:after {
       position: absolute;
       content: "";
-      height: 2px;
-      width: 47px;
+      height: .1rem;
+      width: 3rem;
       background: #1b55e2;
       border-radius: 50%;
       bottom: -2px;
-      left: 15px; }
+      left: 1rem; }
   .skills .widget-content-area p.skill-item {
     margin-bottom: 5px;
     font-size: 15px;
     color: #515365;
     font-weight: 600; }
   .skills .widget-content-area .progress {
-    height: 20px;
+    height: 1.2rem;
     box-shadow: 1px 3px 20px 3px #f1f2f3;
-    margin-bottom: 31px; }
+    margin-bottom: 2rem; }
     .skills .widget-content-area .progress .progress-bar {
       background-color: #1b55e2;
       background: linear-gradient(to right, #0081ff 0%, #0045ff 100%);
-      border-radius: 1rem;
+      border-radius: .9rem;
       box-shadow: 0 2px 4px rgba(0, 69, 255, 0.15), 0 8px 16px rgba(0, 69, 255, 0.2);
-      font-size: 12px;
+      font-size: 1rem;
       letter-spacing: 1px;
       font-weight: 100; }
     .skills .widget-content-area .progress .progress-title {
       display: flex;
       justify-content: space-between;
-      padding: 15px; }
+      padding: 1rem; }
       .skills .widget-content-area .progress .progress-title span {
         align-self: center; }
 
@@ -182,43 +182,43 @@ a:hover {
   padding-bottom: 0; }
   .bio .widget-content-area h3 {
     position: relative;
-    font-size: 21px;
+    font-size: 1.4rem;
     font-weight: 600;
     color: #3b3f5c;
-    margin: 6px 0px 40px 0; }
+    margin: .3rem 0px 3.5rem 0; }
     .bio .widget-content-area h3:after {
       position: absolute;
       content: "";
       height: 2px;
-      width: 30px;
+      width: 1.9rem;
       background: #1b55e2;
       border-radius: 50%;
       bottom: -2px;
       left: 15px; }
   .bio .widget-content-area h5 {
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 700;
     color: #3b3f5c; }
   .bio .widget-content-area p {
     color: #888ea8;
-    font-size: 15px; }
+    font-size: 1rem; }
   .bio .widget-content-area .bio-skill-box {
-    padding-top: 30px;
-    padding-bottom: 30px; }
+    padding-top: 2rem;
+    padding-bottom: 2rem; }
   .bio .widget-content-area .b-skills {
-    padding: 22px 16px;
+    padding: 1.4rem 1rem;
     box-shadow: 2px 5px 17px 0 rgba(31, 45, 61, 0.17);
     background: #fff;
     border-radius: 10px;
-    padding: 30px 30px 24px; }
+    padding: 1.8rem 1.8rem 1.6rem; }
     .bio .widget-content-area .b-skills svg {
-      width: 30px;
-      height: 30px;
-      margin-right: 21px;
+      width: 1.8rem;
+      height: 1.8rem;
+      margin-right: 1.6rem;
       color: #1b55e2; }
     .bio .widget-content-area .b-skills h5 {
-      margin-bottom: 10px;
-      font-size: 16px; }
+      margin-bottom: .8rem;
+      font-size: 1rem; }
     .bio .widget-content-area .b-skills p {
       font-size: 13px; }
 
@@ -258,19 +258,19 @@ a:hover {
 }
 
 .mb-10 {
-  margin-bottom: 10px !important;
+  margin-bottom: .6rem !important;
 }
 
 .mb-20 {
-  margin-bottom: 20px !important;
+  margin-bottom: 1.2rem !important;
 }
 
 .mb-30 {
-  margin-bottom: 30px !important;
+  margin-bottom: 2rem !important;
 }
 
 .mb-40 {
-  margin-bottom: 40px !important;
+  margin-bottom: 2.6rem !important;
 }
 
 .mb-50 {
@@ -286,7 +286,7 @@ a:hover {
 }
 
 .mb-80 {
-  margin-bottom: 80px !important;
+  margin-bottom: 8rem !important;
 }
 
 .mb-90 {
@@ -317,13 +317,6 @@ a:hover {
   font-family: "Playfair Display", serif !important;
 }
 
-.shadow {
-  box-shadow: 0px 18px 39.1px 6.9px rgba(224, 241, 255, 0.34) !important;
-}
-
-.bg-dark {
-  background-color: #222222 !important;
-}
 
 /* icon */
 .icon {
@@ -342,61 +335,10 @@ a:hover {
 }
 
 /* /icon */
-/* slick slider */
-.slick-dots {
-  text-align: center;
-  padding-left: 0;
-}
-.slick-dots li {
-  display: inline-block;
-  margin: 2px;
-}
-.slick-dots li.slick-active button {
-  background: #fff;
-  width: 25px;
-}
-.slick-dots li button {
-  height: 6px;
-  width: 12px;
-  background: rgba(255, 255, 255, 0.5);
-  color: transparent;
-  border-radius: 10px;
-  overflow: hidden;
-  transition: 0.2s ease;
-  border: 0;
-}
 
 /* /slick slider */
-/* form */
-.form-control {
-  border: 0;
-  border-radius: 0;
-  border-bottom: 1px solid #c7c7c7;
-  height: 60px;
-}
-.form-control:focus {
-  border-color: #41228e;
-  outline: 0;
-  box-shadow: none !important;
-}
 
-textarea.form-control {
-  height: 120px;
-}
 
-/* /form */
-/* card */
-.card {
-  border: 0;
-}
-.card-header {
-  border: 0;
-}
-.card-footer {
-  border: 0;
-}
-
-/* /card */
 .navigation {
   padding: 40px 130px;
   transition: 0.3s ease;
@@ -420,7 +362,7 @@ textarea.form-control {
 .navbar .nav-item .nav-link {
   font-family: "Playfair Display", serif;
   text-transform: uppercase;
-  padding: 15px;
+  padding: 1rem;
 }
 .navbar .nav-item.active {
   font-weight: bold;
@@ -431,12 +373,12 @@ textarea.form-control {
 }
 
 .hero-area {
-  padding: 30rem 0 20rem;
+  padding: 15rem 0 15rem;
   position: relative;
 }
 @media (max-width: 767px) {
   .hero-area {
-    padding: 25rem 0 15rem;
+    padding: 22rem 0 12rem;
     overflow: hidden;
   }
 }
@@ -457,219 +399,13 @@ textarea.form-control {
   left: 0;
 }
 
-/* skills */
-.progress-wrapper {
-  height: 130px;
-  overflow: hidden;
-}
-
-.wave {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-}
-.wave::before, .wave::after {
-  content: "";
-  position: absolute;
-  width: 800px;
-  height: 800px;
-  bottom: 0;
-  left: 50%;
-  background-color: rgba(255, 255, 255, 0.4);
-  border-radius: 45%;
-  transform: translateX(-50%) rotate(0);
-  -webkit-animation: rotate 6s linear infinite;
-          animation: rotate 6s linear infinite;
-  z-index: 10;
-}
-
-/* education */
-.edu-bg-image {
-  position: absolute;
-  left: 0;
-  top: -300px;
-  z-index: -1;
-}
-
-/* /education */
-/* service */
-.hover-bg-primary {
-  transition: 0.3s ease;
-}
-.hover-bg-primary:hover {
-  background: #41228e;
-}
-.hover-bg-primary:hover * {
-  color: #fff;
-}
-
-.active-bg-primary {
-  transition: 0.3s ease;
-  background: #41228e;
-}
-.active-bg-primary * {
-  color: #fff;
-}
-
-.hover-shadow {
-  transition: 0.2s ease;
-}
-.hover-shadow:hover {
-  box-shadow: 0px 18px 40px 8px rgba(224, 241, 255, 0.54) !important;
-}
-
-/* portfolio */
-.hover-wrapper {
-  overflow: hidden;
-}
-.hover-wrapper img {
-  transition: 0.3s ease;
-  transform: scale(1.1);
-}
-.hover-wrapper:hover img {
-  transform: scale(1);
-}
-.hover-wrapper:hover .hover-overlay {
-  opacity: 1;
-  visibility: visible;
-}
-
-.hover-overlay {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  border-radius: inherit;
-  top: 0;
-  left: 0;
-  background: rgba(0, 0, 0, 0.3);
-  opacity: 0;
-  visibility: hidden;
-  transition: 0.3s ease;
-}
-
-.hover-content {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  left: 0;
-  right: 0;
-  text-align: center;
-}
 
 
-/* /testimonial */
-/* footer */
 
 
-/* /footer */
 
 
-.page-title-alt {
-  padding: 350px 0 70px;
-}
 
-.border-thick {
-  border: 10px solid;
-}
-
-.drag-lg-top {
-  margin-top: -230px;
-}
-@media (max-width: 991px) {
-  .drag-lg-top {
-    margin-top: 0;
-  }
-}
-
-.page-title-alt .container {
-  position: relative;
-  z-index: 1;
-}
-.page-title-alt .bg-shape-1 {
-  position: absolute;
-  left: 0;
-  top: 0;
-  height: 100%;
-}
-.page-title-alt .bg-shape-2 {
-  position: absolute;
-  left: 70px;
-  top: 100px;
-}
-.page-title-alt .bg-shape-3 {
-  position: absolute;
-  left: 30%;
-  top: 50px;
-  transform: rotate(180deg);
-}
-.page-title-alt .bg-shape-4 {
-  position: absolute;
-  left: 100px;
-  bottom: 100px;
-}
-.page-title-alt .bg-shape-5 {
-  position: absolute;
-  left: 40%;
-  bottom: -25px;
-}
-.page-title-alt .bg-shape-6 {
-  position: absolute;
-  bottom: 100px;
-  right: -100px;
-}
-
-.page-title {
-  padding: 250px 0 150px;
-}
-.page-title .container {
-  position: relative;
-  z-index: 1;
-}
-.page-title .bg-shape-1 {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-}
-.page-title .bg-shape-2 {
-  position: absolute;
-  left: -20px;
-  top: -10px;
-}
-.page-title .bg-shape-3 {
-  position: absolute;
-  left: 10%;
-  top: 100px;
-}
-.page-title .bg-shape-4 {
-  position: absolute;
-  left: 50%;
-  top: -20px;
-}
-.page-title .bg-shape-5 {
-  position: absolute;
-  left: 90px;
-  bottom: -50px;
-  transform: rotate(180deg);
-}
-.page-title .bg-shape-6 {
-  position: absolute;
-  right: 20%;
-  bottom: -20px;
-}
-.page-title .bg-shape-7 {
-  position: absolute;
-  right: -220px;
-  bottom: -100px;
-}
-
-.filter-controls li {
-  cursor: pointer;
-}
-.filter-controls li.active {
-  font-weight: bold;
-}
-/*footer */
 
 footer {
   background-color: #292c2f;
@@ -679,7 +415,7 @@ footer {
   text-align: left;
   font: bold 16px sans-serif;
   padding: 55px 50px;
-  margin-top: 80px;
+  margin-top: 7.5rem;
   bottom: 0;
   color: #fff;
 }
