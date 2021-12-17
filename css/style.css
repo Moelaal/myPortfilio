@@ -43,6 +43,9 @@ h2, .h2 {
   }
 }
 
+.txt{
+  color: antiquewhite;
+}
 
 
 
@@ -129,8 +132,8 @@ a:hover {
   background-repeat: no-repeat;
 }
 
-#portfilio{
-  padding-top: 10rem;
+.py-5{
+  padding-top: 100rem;
 }
 
 
