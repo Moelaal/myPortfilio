@@ -182,55 +182,60 @@ a:hover {
   padding-bottom: 0; }
 
   .aboutme , #portfolio{
-    margin-top: 5rem;
-    padding:5rem;
+    margin-top: 10rem;
+    
   }
 
-
+  
+  
    h3 {
-    position: relative;
-    font-size: 1.4rem;
-    font-weight: 600;
-    color: #3b3f5c;
-    margin: .3rem 0px 3.5rem 0; }
+     position: relative;
+     font-size: 1.4rem;
+     font-weight: 600;
+     color: #3b3f5c;
+     margin: .3rem 0px 3.5rem 0; }
      h3:after {
-      position: absolute;
-      content: "";
-      height: 2px;
-      width: 2.5rem;
-      background: #461be2;
-      border-radius: 50%;
-      bottom: -2px;
-      left: 15px; }
-  .bio .widget-content-area h5 {
-    font-size: 1rem;
-    font-weight: 700;
-    color: #3b3f5c; }
-  .bio .widget-content-area p {
-    color: #888ea8;
-    font-size: 1rem; }
-  .bio .widget-content-area .bio-skill-box {
-    padding-top: 2rem;
-    padding-bottom: 2rem; }
-  .bio .widget-content-area .b-skills {
-    padding: 1.4rem 1rem;
-    box-shadow: 2px 5px 17px 0 rgba(31, 45, 61, 0.17);
-    background: #fff;
-    border-radius: 10px;
-    padding: 1.8rem 1.8rem 1.6rem; }
-    .bio .widget-content-area .b-skills svg {
+       position: absolute;
+       content: "";
+       height: 2px;
+       width: 2.5rem;
+       background: #461be2;
+       border-radius: 50%;
+       bottom: -2px;
+       left: 15px; }
+       .bio .widget-content-area h5 {
+         font-size: 1rem;
+         font-weight: 700;
+         color: #3b3f5c; }
+         .bio .widget-content-area p {
+           color: #888ea8;
+           font-size: 1rem; }
+           .bio .widget-content-area .bio-skill-box {
+             padding-top: 2rem;
+             padding-bottom: 2rem; }
+             .bio .widget-content-area .b-skills {
+               padding: 1.4rem 1rem;
+               box-shadow: 2px 5px 17px 0 rgba(31, 45, 61, 0.17);
+               background: #fff;
+               border-radius: 10px;
+               padding: 1.8rem 1.8rem 1.6rem; }
+               .bio .widget-content-area .b-skills svg {
       width: 1.8rem;
       height: 1.8rem;
       margin-right: 1.6rem;
       color: #1b55e2; }
-    .bio .widget-content-area .b-skills h5 {
-      margin-bottom: .8rem;
-      font-size: 1rem; }
-    .bio .widget-content-area .b-skills p {
-      font-size: 13px; }
-
-
-/* cards */
+      .bio .widget-content-area .b-skills h5 {
+        margin-bottom: .8rem;
+        font-size: 1rem; }
+        .bio .widget-content-area .b-skills p {
+          font-size: 13px; }
+          
+          .bioimg img{
+            width:20rem;
+            height:20rem;
+          }
+          
+          /* cards */
 /* .card-body{
   height: 18rem;
 } */
