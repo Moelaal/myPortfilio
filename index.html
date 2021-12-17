@@ -10,7 +10,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="description" content="Portfolio">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
-  <met name="author" content="Themefisher">
+  
   
   <!-- Faviacon -->
   
@@ -33,7 +33,8 @@
 
 <header class="navigation fixed-top">
   <nav class="navbar navbar-expand-lg  navbar-expand-md  navbar-dark">
-    <a class="navbar-brand font-tertiary h3" href="index.html"><img src="images/logo.png" alt="Myself"></a>
+    <a class="navbar-brand font-tertiary h3" href="index.html">
+        <img src="images/logo.png" alt="Myself"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
       aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -41,17 +42,17 @@
 
     <div class="collapse navbar-collapse text-center" id="navigation">
       <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="index.html">Home</a>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">about</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="about.html">about</a>
+          <a class="nav-link" href="#services">Services</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="blog.html">Blog</a>
+          <a class="nav-link" href="#portfolio">Portfolio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="portfolio.html">Portfolio</a>
+          <a class="nav-link" href="portfolio.html">Resume</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="contact.html">Contact</a>
@@ -62,7 +63,7 @@
 </header>
 
 <!-- hero area -->
-<section class="hero-area bg-primary mb-50" id="parallax">
+<section class="hero-area bg-primary " id="parallax">
   <div class="container">
     <div class="row">
       <div class="col-lg-11 mx-auto">
@@ -86,13 +87,14 @@
   
 </section>
 
+<section id="about" class="aboutme mb-50">
 
-<div class="bio layout-spacing container  mb-50">
+<div  class="bio layout-spacing container  ">
   <div class="row widget-content widget-content-area m-2">
       <h3 class="">Bio</h3>
       <p>I'm Web Developer from California. I code and design websites worldwide. Mauris varius tellus vitae tristique sagittis. Sed aliquet, est nec auctor aliquet, orci ex vestibulum ex, non pharetra lacus erat ac nulla.</p>
 
-      <div class="container bio-skill-box">
+      <div class="container bio-skill-box" id="services">
 
           <div class="row">
               
@@ -155,6 +157,89 @@
   </div>                                
 </div>
 
+</section>
+
+<section id="portfolio" class="py-5 bg-primary mb-50">
+    <div class="container">
+        <h3 class="">Skills</h3>
+        
+        <div class="row filtr-container">
+            <div class="col-md-6 col-lg-4 filtr-item" data-category="2,3">
+                <div class="card border-dark">
+                    <div class="card-header bg-white text-light">
+                        <h5 class="m-0">Lorem Ipsum</h5>
+                    </div><img class="img-fluid card-img w-100 d-block rounded-0" src="https://images.unsplash.com/photo-1639644495939-7e5d6bb571c4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80">
+                    <div class="card-body">
+                        <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                    </div>
+                    <div class="d-flex card-footer"><button class="btn btn-primary btn-sm" type="button"><i class="fa fa-eye"></i>&nbsp;Button 1</button><button class="btn btn-outline-dark btn-sm ms-auto" type="button"><i class="fa fa-plus"></i>&nbsp;Button 2</button></div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 filtr-item" data-category="1,3">
+                <div class="card border-dark">
+                    <div class="card-header bg-white text-light">
+                        <h5 class="m-0">Lorem Ipsum</h5>
+                    </div><img class="img-fluid card-img w-100 d-block rounded-0" src="https://images.unsplash.com/photo-1639644495939-7e5d6bb571c4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80">
+                    <div class="card-body">
+                        <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit.&nbsp;Peiores principem Constantium cautela sed cetera et nimia graves cetera modi in titulo causarum infudisset plagas apud sed ut siquid. Invadere tabescebat <br></p>
+                    </div>
+                    <div class="d-flex card-footer"><button class="btn btn-primary btn-sm" type="button"><i class="fa fa-eye"></i>&nbsp;Button 1</button><button class="btn btn-outline-dark btn-sm ms-auto" type="button"><i class="fa fa-plus"></i>&nbsp;Button 2</button></div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 filtr-item" data-category="2,3">
+                <div class="card border-dark">
+                    <div class="card-header bg-white text-light">
+                        <h5 class="m-0">Lorem Ipsum</h5>
+                    </div><img class="img-fluid card-img w-100 d-block rounded-0" src="https://images.unsplash.com/photo-1639644495939-7e5d6bb571c4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80">
+                    <div class="card-body">
+                        <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Observantes habitu ignoti conspiratione poterant homines formido cognita malorum conpluribus peragranter divites fingerent poterant peragranter.<br></p>
+                    </div>
+                    <div class="d-flex card-footer"><button class="btn btn-primary btn-sm" type="button"><i class="fa fa-eye"></i>&nbsp;Button 1</button><button class="btn btn-outline-dark btn-sm ms-auto" type="button"><i class="fa fa-plus"></i>&nbsp;Button 2</button></div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 filtr-item" data-category="3">
+                <div class="card border-dark">
+                    <div class="card-header bg-white text-light">
+                        <h5 class="m-0">Lorem Ipsum</h5>
+                    </div><img class="img-fluid card-img w-100 d-block rounded-0" src="https://images.unsplash.com/photo-1639644495939-7e5d6bb571c4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80">
+                    <div class="card-body">
+                        <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit.&nbsp;Populique et auctoritate cum sint partes regina canities et circumspectum certamina suffragiorum reverenda et set circumspectum temporis auctoritate <br></p>
+                    </div>
+                    <div class="d-flex card-footer"><button class="btn btn-primary btn-sm" type="button"><i class="fa fa-eye"></i>&nbsp;Button 1</button><button class="btn btn-outline-dark btn-sm ms-auto" type="button"><i class="fa fa-plus"></i>&nbsp;Button 2</button></div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 filtr-item" data-category="1,2">
+                <div class="card border-dark">
+                    <div class="card-header bg-white text-light">
+                        <h5 class="m-0">Lorem Ipsum</h5>
+                    </div><img class="img-fluid card-img w-100 d-block rounded-0" src="https://images.unsplash.com/photo-1639644495939-7e5d6bb571c4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80">
+                    <div class="card-body">
+                        <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Vocis indigna adlocutus prodesse custodiam ut adlocutus commune vita commune.<br></p>
+                    </div>
+                    <div class="d-flex card-footer"><button class="btn btn-primary btn-sm" type="button"><i class="fa fa-eye"></i>&nbsp;Button 1</button><button class="btn btn-outline-dark btn-sm ms-auto" type="button"><i class="fa fa-plus"></i>&nbsp;Button 2</button></div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 filtr-item" data-category="1,3">
+                <div class="card border-dark">
+                    <div class="card-header bg-white text-light">
+                        <h5 class="m-0">Lorem Ipsum</h5>
+                    </div>
+                    <img class="img-fluid w-55  rounded-0" src="https://images.unsplash.com/photo-1639644495939-7e5d6bb571c4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80">
+                    <div class="card-body">
+                        <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit.&nbsp;Et admiratio incidere magis eo incidere et forte pauci una admiratio eum Pompeio Q tum dissideret querella et forte una hemicyclio ore illum admiratio hominum is <br></p>
+                    </div>
+                    <div class="d-flex card-footer">
+                        <button class="btn btn-primary btn-sm" type="button"><i class="fa fa-eye"></i>&nbsp;Button 1</button>
+                        <button class="btn btn-outline-dark btn-sm ms-auto" type="button"><i class="fa fa-plus"></i>&nbsp;Button 2</button></div>
+                </div>
+            </div>
+            
+           
+        </div>
+    </div>
+    
+</section>
+
 <section class="skills container">
   <div class="skills layout-spacing row  ">
     <div class="widget-content widget-content-area col-lg-12 col-12">
@@ -176,86 +261,6 @@
 </div>
 </section>
 
-<section class="py-5">
-    <div class="container">
-        <h3 class="">Skills</h3>
-        
-        <div class="row filtr-container">
-            <div class="col-md-6 col-lg-4 filtr-item" data-category="2,3">
-                <div class="card border-dark">
-                    <div class="card-header bg-primary text-light">
-                        <h5 class="m-0">Lorem Ipsum</h5>
-                    </div><img class="img-fluid card-img w-100 d-block rounded-0" src="https://images.unsplash.com/photo-1639644495939-7e5d6bb571c4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80">
-                    <div class="card-body">
-                        <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                    </div>
-                    <div class="d-flex card-footer"><button class="btn btn-primary btn-sm" type="button"><i class="fa fa-eye"></i>&nbsp;Button 1</button><button class="btn btn-outline-dark btn-sm ms-auto" type="button"><i class="fa fa-plus"></i>&nbsp;Button 2</button></div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4 filtr-item" data-category="1,3">
-                <div class="card border-dark">
-                    <div class="card-header bg-primary text-light">
-                        <h5 class="m-0">Lorem Ipsum</h5>
-                    </div><img class="img-fluid card-img w-100 d-block rounded-0" src="https://images.unsplash.com/photo-1639644495939-7e5d6bb571c4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80">
-                    <div class="card-body">
-                        <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit.&nbsp;Peiores principem Constantium cautela sed cetera et nimia graves cetera modi in titulo causarum infudisset plagas apud sed ut siquid. Invadere tabescebat <br></p>
-                    </div>
-                    <div class="d-flex card-footer"><button class="btn btn-primary btn-sm" type="button"><i class="fa fa-eye"></i>&nbsp;Button 1</button><button class="btn btn-outline-dark btn-sm ms-auto" type="button"><i class="fa fa-plus"></i>&nbsp;Button 2</button></div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4 filtr-item" data-category="2,3">
-                <div class="card border-dark">
-                    <div class="card-header bg-primary text-light">
-                        <h5 class="m-0">Lorem Ipsum</h5>
-                    </div><img class="img-fluid card-img w-100 d-block rounded-0" src="https://images.unsplash.com/photo-1639644495939-7e5d6bb571c4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80">
-                    <div class="card-body">
-                        <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Observantes habitu ignoti conspiratione poterant homines formido cognita malorum conpluribus peragranter divites fingerent poterant peragranter.<br></p>
-                    </div>
-                    <div class="d-flex card-footer"><button class="btn btn-primary btn-sm" type="button"><i class="fa fa-eye"></i>&nbsp;Button 1</button><button class="btn btn-outline-dark btn-sm ms-auto" type="button"><i class="fa fa-plus"></i>&nbsp;Button 2</button></div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4 filtr-item" data-category="3">
-                <div class="card border-dark">
-                    <div class="card-header bg-primary text-light">
-                        <h5 class="m-0">Lorem Ipsum</h5>
-                    </div><img class="img-fluid card-img w-100 d-block rounded-0" src="https://images.unsplash.com/photo-1639644495939-7e5d6bb571c4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80">
-                    <div class="card-body">
-                        <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit.&nbsp;Populique et auctoritate cum sint partes regina canities et circumspectum certamina suffragiorum reverenda et set circumspectum temporis auctoritate <br></p>
-                    </div>
-                    <div class="d-flex card-footer"><button class="btn btn-primary btn-sm" type="button"><i class="fa fa-eye"></i>&nbsp;Button 1</button><button class="btn btn-outline-dark btn-sm ms-auto" type="button"><i class="fa fa-plus"></i>&nbsp;Button 2</button></div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4 filtr-item" data-category="1,2">
-                <div class="card border-dark">
-                    <div class="card-header bg-primary text-light">
-                        <h5 class="m-0">Lorem Ipsum</h5>
-                    </div><img class="img-fluid card-img w-100 d-block rounded-0" src="https://images.unsplash.com/photo-1639644495939-7e5d6bb571c4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80">
-                    <div class="card-body">
-                        <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Vocis indigna adlocutus prodesse custodiam ut adlocutus commune vita commune.<br></p>
-                    </div>
-                    <div class="d-flex card-footer"><button class="btn btn-primary btn-sm" type="button"><i class="fa fa-eye"></i>&nbsp;Button 1</button><button class="btn btn-outline-dark btn-sm ms-auto" type="button"><i class="fa fa-plus"></i>&nbsp;Button 2</button></div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4 filtr-item" data-category="1,3">
-                <div class="card border-dark">
-                    <div class="card-header bg-primary text-light">
-                        <h5 class="m-0">Lorem Ipsum</h5>
-                    </div>
-                    <img class="img-fluid w-55  rounded-0" src="https://images.unsplash.com/photo-1639644495939-7e5d6bb571c4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80">
-                    <div class="card-body">
-                        <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit.&nbsp;Et admiratio incidere magis eo incidere et forte pauci una admiratio eum Pompeio Q tum dissideret querella et forte una hemicyclio ore illum admiratio hominum is <br></p>
-                    </div>
-                    <div class="d-flex card-footer">
-                        <button class="btn btn-primary btn-sm" type="button"><i class="fa fa-eye"></i>&nbsp;Button 1</button>
-                        <button class="btn btn-outline-dark btn-sm ms-auto" type="button"><i class="fa fa-plus"></i>&nbsp;Button 2</button></div>
-                </div>
-            </div>
-            
-           
-        </div>
-    </div>
-    
-</section>
 
 
 

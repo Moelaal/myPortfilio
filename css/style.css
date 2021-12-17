@@ -180,6 +180,13 @@ a:hover {
 .bio .widget-content-area {
   border-radius: 6px;
   padding-bottom: 0; }
+
+  .aboutme , #portfolio{
+    margin-top: 5rem;
+    padding:5rem;
+  }
+
+
    h3 {
     position: relative;
     font-size: 1.4rem;
@@ -389,25 +396,24 @@ a:hover {
 
 /* /icon */
 
-/* /slick slider */
 
 
 .navigation {
-  padding: 40px 130px;
+  padding: 2rem 2rem;
   transition: 0.3s ease;
 }
 .navigation.nav-bg {
   background-color: #41228e;
-  padding: 1.5rem 10rem;
+  padding: .5rem;
 }
 @media (max-width: 991px) {
   .navigation.nav-bg {
-    padding: 1rem 2rem;
+    padding: .5rem;
   }
 }
 @media (max-width: 991px) {
   .navigation {
-    padding: 2rem;
+    padding: 1rem;
     background: #41228e;
   }
 }
