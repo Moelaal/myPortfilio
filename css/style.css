@@ -44,7 +44,10 @@ h2, .h2 {
 }
 
 .txt{
-  color: antiquewhite;
+  color: #fff;
+}
+i:hover{
+  color:#B958A5;
 }
 
 
