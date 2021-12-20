@@ -465,6 +465,10 @@ a:hover {
   left: 0;
 }
 
+.bb{
+  height:5rem
+}
+
 /* News letter */
 .newsletter {
   padding: 80px 0;
@@ -479,6 +483,7 @@ a:hover {
   z-index: 2; }
   .newsletter .content h2 {
   color: #40199c;
+  text-shadow: 2p 1px #33383b;
   margin-bottom: 40px; }
   .newsletter .content .form-control {
   height: 50px;
